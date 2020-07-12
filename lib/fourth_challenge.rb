@@ -20,7 +20,7 @@ require 'pry'
         {:name => "Nurse", :age => "44", :attitude => "worried"}
       ]
    }
-  binding.pry
 }
+binding.pry
 end
 epic_tragedy[:capulet][:matriarch][:name]
