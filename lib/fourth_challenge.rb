@@ -1,5 +1,6 @@
 def fourth_challenge
 
+require 'pry'
   epic_tragedy = {
    :montague => {
       :patriarch => {name: "Lord Montague", age: "53"},
@@ -19,6 +20,7 @@ def fourth_challenge
         {:name => "Nurse", :age => "44", :attitude => "worried"}
       ]
    }
+  binding.pry
 }
 end
 epic_tragedy[:capulet][:matriarch][:name]
